@@ -18,3 +18,19 @@ The script will check your program for errors and print your score on each probl
 
 
 python evaluateShared.py --cmd "python vrp.py" --problemDir "test_data"
+
+Cheapest:
+    mean cost: 56484.8752497138
+    mean run time: 64.58051204681396ms
+
+Closest:
+    mean cost: 47963.81284400135
+    mean run time: 73.84626865386963ms
+
+Furthest from depot:
+    mean cost: 47894.524588592176
+    mean run time: 77.5111198425293ms
+
+Closest to depot:
+    mean cost: 55610.08419697672
+    mean run time: 76.62986516952515ms
