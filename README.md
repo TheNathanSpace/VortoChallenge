@@ -4,7 +4,7 @@ My solution to the Vorto AI 2023/2024 coding challenge.
 
 ## Execution
 
-The program is all contained in `vrp.py`, and depends only on the Python Standard Library (no other dependencies).
+The program is all contained in `vrp.py`, and depends only on the Python Standard Library (no other dependencies). It was written for Python 3.10.12, but I expect it should work on most modern Python versions 3.7+.
 
 ```shell
 # Run on single input file
