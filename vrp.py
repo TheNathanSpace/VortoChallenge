@@ -160,7 +160,7 @@ if __name__ == '__main__':
     Main algorithm loop
     
     1. Create a new driver.
-    2. For all loads, calculate the distance between the driver and the load start location.
+    2. For all remaining loads, calculate the distance between the driver and the load start location.
     3. Assign the closest load to the driver and remove it from the list.
     4. Repeat until the driver's only option is returning to the depot (not enough time for anything else).
     5. Repeat with a new driver until all loads are delivered.
