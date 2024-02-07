@@ -18,6 +18,11 @@ class Load:
         self.delivery_cost = math.sqrt((self.start.x - self.end.x) ** 2 + (self.start.y - self.end.y) ** 2)
         self.end_distance_from_depot = math.sqrt((self.end.x ** 2) + (self.end.y ** 2))
 
+        cost = self.delivery_cost + self.end_distance_from_depot + math.sqrt((self.start.x ** 2) + (self.start.y ** 2))
+        if cost > 12 * 60:
+            print(f"Impossible load. Cost: {cost}", file=sys.stderr)
+            exit(-1)
+
 
 class Driver:
     def __init__(self):
