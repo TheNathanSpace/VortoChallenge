@@ -20,8 +20,8 @@ The problem is a variant of the "Vehicle Routing Problem with Pickup and Deliver
 Routing Problem," which is a variant of the "Travelling Salesman Problem". Since it's a variation of TSP, which is
 NP-hard, I would assume that an exact algorithmic solution for this problem _could_ be constructed.
 
-However, given the implementation constraints (24 hours in the midst of college classes, etc.), I opted to use a
-relatively simple heuristic technique. The steps are as follows:
+However, given the implementation constraints (24 hours while in the midst of college classes, etc.), I opted to use a
+much simpler heuristic technique. The algorithm steps are as follows:
 
 1. Create a new driver.
 2. For all remaining loads, calculate the distance between the driver and the load's starting position.
@@ -41,7 +41,7 @@ data:
 | Method                      | Mean Cost              | Mean Time              |
 |-----------------------------|------------------------|------------------------|
 | Cheapest overall cost       | 56484.8752497138       | 64.58051204681396ms    |
-| Closest to driver           | 47963.81284400135      | 73.84626865386963ms    |
+| Start closest to driver     | 47963.81284400135      | 73.84626865386963ms    |
 | **End furthest from depot** | **47894.524588592176** | **77.5111198425293ms** |
 | End closest to depot        | 55610.08419697672      | 76.62986516952515ms    |
 
